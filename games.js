@@ -2604,4 +2604,11 @@ motocrossx3m: {
         color: "linear-gradient(135deg, #0a0000, #1a0000)",
         url: "https://db.duckmath.org/html/minecraft/"
     },
+    classicminecraft: {
+        title: "classic minecraft",
+        type: "remote",
+        xpMultiplier: 15,
+        emoji: "🧱",
+        color: "linear-gradient(135deg, #0a0000, #1a0000",
+        url: "https://db2.duckmath.org/2026/more/duckcraft/pre.html"
 };
