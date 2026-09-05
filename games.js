@@ -2587,4 +2587,14 @@ motocrossx3m: {
         color: "linear-gradient(135deg, #0a0000, #1a0000)",
         url: "https://cool-websites.github.io/Five-Nights-at-Epstein/"
     },
+
+    amongus: {
+        title: "among us",
+        type: "remote",
+        xpMultiplier: 15,
+        emoji: "👽",
+        color: "linear-gradient(135deg, #0a0000, #1a0000)",
+        url: "https://db.duckmath.org/html/among_us/"
+    },
 };
+
