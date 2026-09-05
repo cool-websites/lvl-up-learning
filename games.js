@@ -1706,7 +1706,6 @@ motocrossx3m: {
     trafficRush: { title: "Traffic Rush", type: "remote", xpMultiplier: 8, emoji: "🚗", color: "linear-gradient(135deg, #1a1a2e, #e94560)", url: "https://sportedu25.github.io/g22/class-393/" },
     villageCraft: { title: "Village Craft", type: "remote", xpMultiplier: 8, emoji: "🏘️", color: "linear-gradient(135deg, #1a472a, #2d6a4f)", url: "https://sportedu25.github.io/g22/class-389/" },
     superLiquidSoccer: { title: "Super Liquid Soccer", type: "remote", xpMultiplier: 8, emoji: "⚽", color: "linear-gradient(135deg, #134e5e, #71b280)", url: "https://sportedu25.github.io/g69/class-628/" },
-    amongUs: { title: "Among Us", type: "remote", xpMultiplier: 10, emoji: "🛸", color: "linear-gradient(135deg, #1a1a2e, #4a0080)", url: "http://sportedu25.github.io/g5/class-468/" },
     getawayShooter: { title: "Getaway Shooter", type: "remote", xpMultiplier: 10, emoji: "🔫", color: "linear-gradient(135deg, #1c0505, #450a0a)", url: "https://sportedu25.github.io/g9/class-479/" },
     highwayBike: { title: "Highway Bike Simulator", type: "remote", xpMultiplier: 8, emoji: "🏍️", color: "linear-gradient(135deg, #0d0d0d, #1a1a2e)", url: "https://sportedu25.github.io/g3/class-314/" },
     subwaySurfers: { title: "Subway Surfers", type: "remote", xpMultiplier: 10, emoji: "🏃", color: "linear-gradient(135deg, #1a1a2e, #e94560)", url: "https://sportedu25.github.io/g26/class-444/" },
