@@ -2444,6 +2444,9 @@
         <div class="nav-item-game featured" onclick="loadGameFromLib('minecraft')">
             <div class="game-dot"></div> minecraft
         </div>
+        <div class="nav-item-game featured" onclick="loadGameFromLib('classicminecraft')">
+            <div class="game-dot"></div> classic minecraft
+        </div>
         <div class="nav-item-game featured" onclick="loadGameFromLib('numbskull')">
             <div class="game-dot"></div> Numbskull
         </div>
@@ -2766,6 +2769,9 @@
                                 </button>
                                 <button class="btn-game btn-game-core red" onclick="loadGameFromLib('minecraft')" style="grid-column:span 2;">
                                     <span class="btn-game-icon">🧱</span> minecraft
+                                </button>
+                                <button class="btn-game btn-game-core red" onclick="loadGameFromLib('classicminecraft')" style="grid-column:span 2;">
+                                    <span class="btn-game-icon">🧱</span> classic minecraft
                                 </button>
                                 <!-- ═══ ADD OVERLAY BUTTONS FOR NEW GAMES HERE ═══
                                      Copy a btn-game line above and change the key + label. Example:
@@ -3299,6 +3305,16 @@
                         <div class="card-thumb" style="background: linear-gradient(135deg, #0f2027, #203a43);">🔺</div>
                         <div class="card-body">
                             <div class="card-title">minecraft</div>
+                            <div class="card-meta">
+                                <span class="badge badge-remote">REMOTE</span>
+                                <span class="card-xp">+10 XP</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="game-card" onclick="loadGameFromLib('classicminecraft')">
+                        <div class="card-thumb" style="background: linear-gradient(135deg, #0f2027, #203a43);">🔺</div>
+                        <div class="card-body">
+                            <div class="card-title">classic minecraft</div>
                             <div class="card-meta">
                                 <span class="badge badge-remote">REMOTE</span>
                                 <span class="card-xp">+10 XP</span>
