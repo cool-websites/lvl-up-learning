@@ -2595,5 +2595,13 @@ motocrossx3m: {
         color: "linear-gradient(135deg, #0a0000, #1a0000)",
         url: "https://db.duckmath.org/html/among_us/"
     },
-};
 
+    minecraft: {
+        title: "minecraft",
+        type: "remote",
+        xpMultiplier: 15,
+        emoji: "🧱",
+        color: "linear-gradient(135deg, #0a0000, #1a0000)",
+        url: "https://db.duckmath.org/html/minecraft/"
+    },
+};
