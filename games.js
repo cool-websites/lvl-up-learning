@@ -2611,4 +2611,10 @@ motocrossx3m: {
         emoji: "🧱",
         color: "linear-gradient(135deg, #0a0000, #1a0000",
         url: "https://db2.duckmath.org/2026/more/duckcraft/pre.html"
+    },
 };
+
+// Make sure GamesLib is reachable everywhere (window.GamesLib), not just
+// as a bare top-level identifier. This also fixes the search view, which
+// already checked `window.GamesLib` but never had it set.
+window.GamesLib = GamesLib;
