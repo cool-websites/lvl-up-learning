@@ -16,7 +16,7 @@
 //  REMOTE GAME TEMPLATE (easiest — just paste a URL):
 //
 //    myGameKey: {
-//        title: "My Game Title",      // shown in the header
+//        title: "My Game Title",      // shown in the header                   
 //        type: "remote",
 //        xpMultiplier: 10,            // XP awarded when the player exits
 //        emoji: "🎮",                 // shown on the card thumbnail
@@ -2612,9 +2612,56 @@ motocrossx3m: {
         color: "linear-gradient(135deg, #0a0000, #1a0000",
         url: "https://db2.duckmath.org/2026/more/duckcraft/pre.html"
     },
-};
 
-// Make sure GamesLib is reachable everywhere (window.GamesLib), not just
-// as a bare top-level identifier. This also fixes the search view, which
-// already checked `window.GamesLib` but never had it set.
+    bitlife: {
+        title: "bitlife",
+        type: "remote",
+        xpMultiplier: 15,
+        emoji: "ᯡ",
+        color: "linear-gradient(135deg, #0a0000, #1a0000",
+        url: "https://cool-websites.github.io/bitlife/"
+
+    },
+
+    
+    retrobowl: {
+        title: "retro bowl",
+        type: "remote",
+        xpMultiplier: 15,
+        emoji: "🏈",
+        color: "linear-gradient(135deg, #0a0000, #1a0000",
+        url: "https://cool-websites.github.io/retro-bowl/"
+
+    },
+
+    fnaf: {
+        title: "fnaf",
+        type: "remote",
+        xpMultiplier: 15,
+        emoji: "🐻",
+        color: "linear-gradient(135deg, #0a0000, #1a0000",
+        url: "https://cool-websites.github.io/fnaf/"
+
+    },
+    
+    fued: {
+        title: "google fued",
+        type: "remote",
+        xpMultiplier: 15,
+        emoji: "G",
+        color: "linear-gradient(135deg, #0a0000, #1a0000",
+        url: "https://cool-websites.github.io/google-fued/"
+
+    },
+
+    subwaysurfers: {
+        title: "subway surfurs",
+        type: "remote",
+        xpMultiplier: 15,
+        emoji: "G",
+        color: "linear-gradient(135deg, #0a0000, #1a0000",
+        url: "https://cool-websites.github.io/ss-san-fransisco/"
+
+    },
+};
 window.GamesLib = GamesLib;
