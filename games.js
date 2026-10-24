@@ -1724,7 +1724,7 @@ motocrossx3m: {
         xpMultiplier: 15,
         emoji: "🔷",
         color: "linear-gradient(135deg, #0f0c29, #302b63)",
-        url: "https://geometrydash-pc.com/play/geometry-dash/"
+        url: "https://cool-websites.github.io/gdash/"
     },
 
 
