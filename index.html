@@ -2459,6 +2459,9 @@
         <div class="nav-item-game featured" onclick="loadGameFromLib('subwaysurfers')">
             <div class="game-dot"></div> subway surfers
         </div>
+        <div class="nav-item-game featured" onclick="loadGameFromLib('oregan')">
+            <div class="game-dot"></div> The Oregan Trail
+        </div>
         <div class="nav-item-game featured" onclick="loadGameFromLib('fnaf')">
             <div class="game-dot"></div> five nights at freddys
         </div>
@@ -2529,7 +2532,7 @@
             <div class="game-dot"></div> Idle Ants
         </div>
         <div class="nav-item-game featured" onclick="loadGameFromLib('geometryRush')">
-            <div class="game-dot"></div> Geometry dash
+            <div class="game-dot"></div> Geometry Rush
         </div>
         <div class="nav-item-game featured" onclick="loadGameFromLib('battleRoyale')">
             <div class="game-dot"></div> Battle Royale
@@ -2773,6 +2776,9 @@
                                 <button class="btn-game btn-game-core" onclick="loadGameFromLib('subwaySurfers')" style="grid-column:span 2;">
                                     <span class="btn-game-icon">🏃</span> Subway Surfers
                                 </button>
+                                <button class="btn-game btn-game-core" onclick="loadGameFromLib('oregan')" style="grid-column:span 2;">
+                                    <span class="btn-game-icon">🦬</span> The Oregan Trail
+                                </button>
                                 <button class="btn-game btn-game-core" onclick="loadGameFromLib('tag')" style="grid-column:span 2;">
                                     <span class="btn-game-icon">🏷️</span> TAG
                                 </button>
@@ -2795,7 +2801,7 @@
                                     <span class="btn-game-icon">🐜</span> Idle Ants
                                 </button>
                                 <button class="btn-game btn-game-core" onclick="loadGameFromLib('geometryRush')" style="grid-column:span 2;">
-                                    <span class="btn-game-icon">🔷</span> Geometry Dash
+                                    <span class="btn-game-icon">🔷</span> Geometry Rush
                                 </button>
                                 <button class="btn-game btn-game-core" onclick="loadGameFromLib('battleRoyale')" style="grid-column:span 2;">
                                     <span class="btn-game-icon">🪖</span> Battle Royale
@@ -3252,6 +3258,16 @@
                             </div>
                         </div>
                     </div>
+                    <div class="game-card" onclick="loadGameFromLib('oregan')">
+                        <div class="card-thumb" style="background: linear-gradient(135deg, #1a1a2e, #e94560);">🏃</div>
+                        <div class="card-body">
+                            <div class="card-title">The Oregan Trail</div>
+                            <div class="card-meta">
+                                <span class="badge badge-remote">REMOTE</span>
+                                <span class="card-xp">+10 XP</span>
+                            </div>
+                        </div>
+                    </div>
                     <div class="game-card" onclick="loadGameFromLib('tag')">
                         <div class="card-thumb" style="background: linear-gradient(135deg, #0f0c29, #302b63);">🏷️</div>
                         <div class="card-body">
@@ -3325,7 +3341,7 @@
                     <div class="game-card" onclick="loadGameFromLib('geometryRush')">
                         <div class="card-thumb" style="background: linear-gradient(135deg, #0f0c29, #302b63);">🔷</div>
                         <div class="card-body">
-                            <div class="card-title">Geometry Dash</div>
+                            <div class="card-title">Geometry Rush</div>
                             <div class="card-meta">
                                 <span class="badge badge-internal">INTERNAL</span>
                                 <span class="card-xp">+15 XP</span>
@@ -4579,7 +4595,7 @@
             { key: 'flappyBird', bonus: 50, desc: 'Get past 5 pipes in Flappy Bird!' },
             { key: 'asteroidDodge', bonus: 70, desc: 'Survive 45 seconds in Asteroid Dodge!' },
             { key: 'warzone', bonus: 75, desc: 'Score 100 points in Void Warzone!' },
-            { key: 'geometryRush', bonus: 80, desc: 'Complete a run in Geometry Dash!' },
+            { key: 'geometryRush', bonus: 80, desc: 'Complete a run in Geometry Rush!' },
         ];
 
         function getTodaysChallenge() {
